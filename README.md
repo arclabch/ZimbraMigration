@@ -14,6 +14,6 @@ Removes child accounts from all your Zimbra accounts, as this functionnality is 
 Usage: ./deleteChildAccounts.sh
 
 ## bulkUpdateLmtp.sh
-When migrating accounts to a new Zimbra installation, remember to update the accounts' LMTP setting or the mails won't be delivered. This script takes the old server as the first argument, and the second account as the new server.
+When migrating accounts to a new Zimbra installation, remember to update the accounts' LMTP setting or the mails won't be delivered. This script takes the old server as the first argument, and the new server as the second.
 
 Usage: ./bulkUpdateLmtp.sh OldServer NewServer
